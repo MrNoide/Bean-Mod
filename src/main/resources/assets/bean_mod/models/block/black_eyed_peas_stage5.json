@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "bean_mod:block/black_eyed_peas_stage5"
+  }
+}
