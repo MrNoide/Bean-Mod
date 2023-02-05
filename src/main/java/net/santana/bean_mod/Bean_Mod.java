@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.santana.bean_mod.item.ModCreativeModeTab;
 import net.santana.bean_mod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -21,14 +22,17 @@ public class Bean_Mod {
     public static final String MOD_ID = "bean_mod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
+
+
     public Bean_Mod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
+
+        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -37,8 +41,9 @@ public class Bean_Mod {
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if(event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
+        if(event.getTab() == ModCreativeModeTab.BEANS_TAB){
             event.accept(ModItems.BLACK_EYED_PEAS);
+            event.accept(ModItems.COOKED_BLACK_EYED_PEAS);
         }
     }
 

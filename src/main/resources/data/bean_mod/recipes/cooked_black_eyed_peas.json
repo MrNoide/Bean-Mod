@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "ingredient": {
+    "item": "bean_mod:black_eyed_peas"
+  },
+  "result": "bean_mod:cooked_black_eyed_peas"
+}
