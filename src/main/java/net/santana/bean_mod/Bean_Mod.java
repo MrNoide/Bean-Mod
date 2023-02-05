@@ -17,7 +17,7 @@ import org.slf4j.Logger;
 public class Bean_Mod {
     public static final String MOD_ID = "bean_mod";
     private static final Logger LOGGER = LogUtils.getLogger();
-    //Very Important Comment OKKKKK
+
     public Bean_Mod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
