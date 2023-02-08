@@ -11,8 +11,8 @@ import net.santana.bean_mod.item.ModItems;
 public class BlackEyedPeasCropBlock extends CropBlock {
     public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 6);
 
-    public BlackEyedPeasCropBlock(Properties proprieties) {
-        super(proprieties);
+    public BlackEyedPeasCropBlock(Properties properties) {
+        super(properties);
     }
 
     @Override
@@ -28,7 +28,6 @@ public class BlackEyedPeasCropBlock extends CropBlock {
     @Override
     public int getMaxAge() {
         return 6;
-
     }
 
     @Override
