@@ -48,6 +48,7 @@ public class Bean_Mod {
         if(event.getTab() == ModCreativeModeTab.BEANS_TAB){
             event.accept(ModItems.BLACK_EYED_PEAS);
             event.accept(ModItems.COOKED_BLACK_EYED_PEAS);
+            event.accept(ModItems.BLACK_EYED_PEAS_POD);
         }
     }
 

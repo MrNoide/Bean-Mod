@@ -17,7 +17,7 @@ public class BlackEyedPeasCropBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return ModItems.BLACK_EYED_PEAS.get();
+        return ModItems.BLACK_EYED_PEAS_POD.get();
     }
 
     @Override

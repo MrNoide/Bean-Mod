@@ -19,11 +19,11 @@
                   }
                 }
               ],
-              "name": "bean_mod:black_eyed_peas"
+              "name": "bean_mod:black_eyed_peas_pod"
             },
             {
               "type": "minecraft:item",
-              "name": "bean_mod:black_eyed_peas"
+              "name": "bean_mod:black_eyed_peas_pod"
             }
           ]
         }
@@ -46,7 +46,7 @@
               }
             }
           ],
-          "name": "bean_mod:black_eyed_peas"
+          "name": "bean_mod:black_eyed_peas_pod"
         }
       ],
       "conditions": [

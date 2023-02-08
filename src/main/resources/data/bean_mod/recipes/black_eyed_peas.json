@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bean_mod:black_eyed_peas_pod"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "bean_mod:black_eyed_peas"
+  }
+}
