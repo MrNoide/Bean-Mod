@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "bean_mod:item/cooked_black_eyed_peas"
-  }
-}

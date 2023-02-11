@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terraformia:black_eyed_peas_pod"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "terraformia:black_eyed_peas"
+  }
+}

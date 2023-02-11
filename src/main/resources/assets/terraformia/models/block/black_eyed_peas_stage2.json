@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "terraformia:block/black_eyed_peas_stage2"
+  }
+}

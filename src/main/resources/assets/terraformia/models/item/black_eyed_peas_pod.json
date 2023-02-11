@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "terraformia:item/black_eyed_peas_pod"
+  }
+}

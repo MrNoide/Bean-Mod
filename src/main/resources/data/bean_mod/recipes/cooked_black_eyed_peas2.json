@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "item": "bean_mod:black_eyed_peas"
-  },
-  "result": "bean_mod:cooked_black_eyed_peas",
-  "experience": 0.2,
-  "cookingtime": 200
-}

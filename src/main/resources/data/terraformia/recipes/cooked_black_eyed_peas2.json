@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "terraformia:black_eyed_peas"
+  },
+  "result": "terraformia:cooked_black_eyed_peas",
+  "experience": 0.2,
+  "cookingtime": 200
+}
